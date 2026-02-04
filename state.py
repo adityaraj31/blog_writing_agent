@@ -14,5 +14,6 @@ class Plan(BaseModel):
 class State(TypedDict):
     topic: str
     plan: Plan
+    context: str
     sections: Annotated[List[str], operator.add]
     final: str

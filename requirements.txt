@@ -3,4 +3,5 @@ pydantic
 groq
 langchain-groq
 python-dotenv
-streamlit 
+streamlit
+tavily-python 
